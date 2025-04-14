@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Link</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .email-content {
+      max-width: 600px;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .email-content h2 {
+      margin-top: 0;
+    }
+
+    a.button {
+      padding: 15px 25px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    a.button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="email-content">
+    <h2>Pre-Filled Email Preview</h2>
+    <p><strong>To:</strong> someone@example.com</p>
+    <p><strong>Subject:</strong> Hi There</p>
+    <p><strong>Body:</strong></p>
+    <p>
+      Hello,<br><br>
+      This is a pre-filled email.<br><br>
+      Thanks!
+    </p>
+  </div>
+
+  <a class="button" href="mailto:someone@example.com?subject=Hi%20There&body=Hello%2C%0A%0AThis%20is%20a%20pre-filled%20email.%0A%0AThanks!">
+    Tap to Send Email
+  </a>
+
+</body>
+</html>
