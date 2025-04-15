@@ -63,7 +63,13 @@
   <div class="container">
     <div class="email-content">
       <h2>Pre-Filled Email Template Preview</h2>
-
+      <p  id="email-preview-note" style="text-align: center; font-size: 14px; color: #777; margin-top: 40px;">
+       📬 This is a preview of the email you will send as your concern,
+        <span style="font-weight: bold; color: red; background-color: yellow; padding: 2px 6px; border-radius: 4px;">
+          feel free to customise it!
+        </span>.
+      
+    </p>
       <label for="template-select"><strong>Select Email Template:</strong></label>
       <select id="template-select" onchange="updateEmailContent()" style="margin: 10px 0; padding: 6px;">
         <option value="dps_">DPS 122 Noida school Parent</option>
@@ -74,7 +80,7 @@
         ⚠️ <strong>Warning:</strong>This email is on behalf of 
         <span style="font-weight: bold; color: red; background-color: yellow; padding: 2px 6px; border-radius: 4px;">
           a DPS Sector 122 School Parent only!
-        </span>.
+        </span>
       </p>
 
       <p><strong>To:</strong> <span id="email-to">feecommitteegbn@gmail.com</span></p>
@@ -95,11 +101,14 @@
       
       <p id="email-middle">
           <ol>
-          <li><b>Unjustified annual fee hikes,</b> especially the mandatory 5% increase, which compounded with the Consumer Price Index (CPI), often exceeds 10%.</li>
-          
-          <li><b>Frequent changes in school uniforms</b> — both in design and color — every year, adding unnecessary financial pressure on parents.</li>
-          
-          <li><b>Switching textbooks and curriculum patterns frequently,</b> leading to confusion and additional costs.</li>
+            <li><b>Unjustified annual fee hikes,</b> especially the mandatory 5% increase, which compounded with the Consumer Price Index (CPI), often exceeds 10%.</li>
+            
+            <li><b>Frequent changes in school uniforms</b> — both in design and color — every year, adding unnecessary financial pressure on parents.</li>
+            
+            <li><b>Switching textbooks and curriculum patterns frequently,</b> leading to confusion and additional costs.</li>
+
+            <li><b>Lack of sibling discount policy,</b>  which many reputed schools follow to support families with more than one child enrolled.</li>
+            
           </ol>
       </p>
 
